@@ -15,7 +15,7 @@
 
 
 ## Módulos:
-- [ ] Historia e ecossistema da linguagem <br>
+- [x] Historia e ecossistema da linguagem <br>
 - [ ] Primeiro programa e o Visual Studio <br>
 - [ ] Variaveis e estrutura condicional <br>
 - [ ] Lacos de repeticao <br>

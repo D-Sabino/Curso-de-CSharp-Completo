@@ -31,6 +31,21 @@ namespace ConsoleApp1
             //Exibindo o valor preenchido no console.
             Console.WriteLine(nome);
             Console.WriteLine(numero);
+
+
+            //Operadores aritmeticos
+            // +, -, /, ++, --
+
+            Console.WriteLine("\nEscreva um numero:");
+            int numero_3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nEscreva outro numero:");
+            int numero_4 = Convert.ToInt32(Console.ReadLine());
+
+            int soma = (numero_3 + numero_4);
+
+            Console.WriteLine("\nA soma dos numeros é: " + soma);
+
         }
     }
 }

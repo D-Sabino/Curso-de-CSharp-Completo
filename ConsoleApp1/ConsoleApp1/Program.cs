@@ -48,7 +48,9 @@ namespace ConsoleApp1
 
 
             /* Aula:  Estrutura condicional e outros operadores */
-            if (soma < 50)
+            // ==, >, <, >=, <=, !=, 
+
+            if (soma < 50 && soma != 8)
             {
                 Console.WriteLine("\nA soma é menor que 50, o total da soma foi de " + soma);
             }

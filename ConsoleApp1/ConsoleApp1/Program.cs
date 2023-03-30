@@ -17,6 +17,7 @@ namespace ConsoleApp1
                 bool - booleano (verdadeiro ou falso)
             */
 
+            /*
             //Exemplo de declaração, Int:
             int numero = 10;
 
@@ -32,10 +33,10 @@ namespace ConsoleApp1
             //Exibindo o valor preenchido no console.
             Console.WriteLine(nome);
             Console.WriteLine(numero);
-
+            */
             /* Aula:  Operadores aritmeticos */
             // +, -, /, ++, --
-
+            /*
             Console.WriteLine("\nEscreva um numero:");
             int numero_3 = Convert.ToInt32(Console.ReadLine());
 
@@ -45,12 +46,12 @@ namespace ConsoleApp1
             int soma = (numero_3 + numero_4);
 
             Console.WriteLine("\nA soma dos numeros é: " + soma);
-
+            */
 
             /* Aula:  Estrutura condicional e outros operadores */
             // ==, >, <, >=, <=, !=
             // &&, ||, !
-
+            /*
             if (soma < 50 && soma != 8)
             {
                 Console.WriteLine("\nA soma é menor que 50, o total da soma foi de " + soma);
@@ -63,6 +64,53 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("\nA soma é maior que 50, o total da soma foi de " + soma);
             }
+            */
+
+
+
+            /* Aula:  Jogo de perguntas e respostas #1 */
+            int pontuacao = 0;
+            int respostaInt;
+            string respostaString;
+            float respostaFloat;
+
+            Console.WriteLine("Quanto é 5 + 5?\nEscreva sua resposta abaixo:");
+            respostaInt = Convert.ToInt32(Console.ReadLine());
+            if (respostaInt == 10)
+            {
+                pontuacao++;
+            }
+
+            Console.WriteLine("Quanto é 10 + 5?\nEscreva sua resposta abaixo:");
+            respostaInt = Convert.ToInt32(Console.ReadLine());
+            if (respostaInt == 15)
+            {
+                pontuacao++;
+            }
+
+            Console.WriteLine("Quem é o CEO da Danki Code?\nEscreva sua resposta abaixo:");
+            respostaString = Console.ReadLine();
+            if (respostaString == "Guilherme")
+            {
+                pontuacao++;
+            }
+
+            Console.WriteLine("Quem é o instrutor do curso de C# da Danki Code?\nEscreva sua resposta abaixo:");
+            respostaString = Console.ReadLine();
+            if (respostaString == "Moises")
+            {
+                pontuacao++;
+            }
+
+            Console.WriteLine("Quanto é 12.5 + 2?\nEscreva sua resposta abaixo:");
+            respostaFloat = float.Parse(Console.ReadLine());
+            if(respostaFloat == 14.5f)
+            {
+                pontuacao++;
+            }
+
+            //Pontuacao total:
+            Console.WriteLine("\nO seu total de pontos foi:\t" + pontuacao);
         }
     }
 }

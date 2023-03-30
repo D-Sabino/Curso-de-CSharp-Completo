@@ -15,18 +15,18 @@
 
 
 ## Módulos:
-- [x] Historia e ecossistema da linguagem <br>
+- [x] História e ecossistema da linguagem <br>
 - [x] Primeiro programa e o Visual Studio <br>
-- [ ] Variaveis e estrutura condicional <br>
-- [ ] Lacos de repeticao <br>
-- [ ] Introducao a Orientacao a Objetos <br>
-- [ ] Herancas e interfaces <br>
-- [ ] Excecoes e erros <br>
+- [x] Variáveis e estrutura condicional <br>
+- [ ] Lacos de repetição <br>
+- [ ] Introdução a Orientação a Objetos <br>
+- [ ] Heranças e interfaces <br>
+- [ ] Exceçoes e erros <br>
 - [ ] Arrays <br>
 - [ ] C# Web - Aprendendo sobre APIs <br>
-- [ ] Introducao ao Front-end: HTML Basico <br>
-- [ ] Introducao ao Front-end: CSS Basico <br>
-- [ ] Introducao a Banco de Dados <br>
+- [ ] Introdução ao Front-end: HTML Basico <br>
+- [ ] Introdução ao Front-end: CSS Basico <br>
+- [ ] Introdução a Banco de Dados <br>
 - [ ] Projeto pratico 1 <br>
-- [ ] Introducao a mobile <br>
-- [ ] Nocoes de Ciencia da Computacao [BONUS]
+- [ ] Introdução a mobile <br>
+- [ ] Noçoes de Ciencia da Computacao [BONUS]

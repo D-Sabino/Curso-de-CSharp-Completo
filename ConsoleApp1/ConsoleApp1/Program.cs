@@ -68,7 +68,8 @@ namespace ConsoleApp1
 
 
 
-            /* Aula:  Jogo de perguntas e respostas #1 */
+            /* Aula:  Jogo de perguntas e respostas #1 e #2 */
+            /*
             int pontuacao = 0;
             int respostaInt;
             string respostaString;
@@ -111,6 +112,28 @@ namespace ConsoleApp1
 
             //Pontuacao total:
             Console.WriteLine("\nO seu total de pontos foi:\t" + pontuacao);
+            */
+
+            /* Aula:  Laços de repetição */
+            //For
+            //Foreach
+            //While
+            //Do.. While
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            int numero = 0;
+            while(numero < 10)
+            {
+                Console.WriteLine(numero);
+                numero++;
+            }
+
+            
+
         }
     }
 }

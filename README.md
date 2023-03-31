@@ -18,7 +18,7 @@
 - [x] História e ecossistema da linguagem <br>
 - [x] Primeiro programa e o Visual Studio <br>
 - [x] Variáveis e estrutura condicional <br>
-- [ ] Lacos de repetição <br>
+- [x] Laços de repetição <br>
 - [ ] Introdução a Orientação a Objetos <br>
 - [ ] Heranças e interfaces <br>
 - [ ] Exceçoes e erros <br>

@@ -116,7 +116,6 @@ namespace ConsoleApp1
 
             /* Aula:  Laços de repetição */
             //For
-            //Foreach
             //While
             //Do.. While
 
@@ -132,7 +131,12 @@ namespace ConsoleApp1
                 numero++;
             }
 
-            
+            numero = 0;
+            do
+            {
+                Console.WriteLine(numero);
+                numero++;
+            } while (numero < 10);
 
         }
     }

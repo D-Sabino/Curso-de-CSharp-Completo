@@ -19,7 +19,7 @@
 - [x] Primeiro programa e o Visual Studio <br>
 - [x] Variáveis e estrutura condicional <br>
 - [x] Laços de repetição <br>
-- [ ] Introdução a Orientação a Objetos <br>
+- [x] Introdução a Orientação a Objetos <br>
 - [ ] Heranças e interfaces <br>
 - [ ] Exceçoes e erros <br>
 - [ ] Arrays <br>

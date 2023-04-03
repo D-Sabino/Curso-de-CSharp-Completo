@@ -1,0 +1,15 @@
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\Curso_DankiCode.csproj.AssemblyReference.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\Curso_DankiCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\Curso_DankiCode.AssemblyInfoInputs.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\Curso_DankiCode.AssemblyInfo.cs
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\Curso_DankiCode.csproj.CoreCompileInputs.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\bin\Debug\net6.0\Curso_DankiCode.exe
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\bin\Debug\net6.0\Curso_DankiCode.deps.json
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\bin\Debug\net6.0\Curso_DankiCode.runtimeconfig.json
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\bin\Debug\net6.0\Curso_DankiCode.dll
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\bin\Debug\net6.0\Curso_DankiCode.pdb
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\Curso_DankiCode.dll
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\refint\Curso_DankiCode.dll
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\Curso_DankiCode.pdb
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\Curso_DankiCode.genruntimeconfig.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Curso_DankiCode\Curso_DankiCode\obj\Debug\net6.0\ref\Curso_DankiCode.dll

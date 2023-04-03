@@ -28,16 +28,35 @@ namespace Curso_DankiCode
         public int nota_anual = 10;
         */
 
-        /* Aula:  Construtor */
-        /*
-        public Aluno(string nome)
-        {
-            nomeDoAluno = nome;
-        }
-
-        public string nomeDoAluno { get; set; }
+    /* Aula:  Construtor */
+    /*
+    public Aluno(string nome)
+    {
+        nomeDoAluno = nome;
     }
-    */
+
+    public string nomeDoAluno { get; set; }
+}
+*/
+
+
+    /* Aula:  Introdução as heranças */
+    public class Alessandra
+    {
+        private int valor = 10;
+
+        public class Joao : Alessandra
+        {
+            public int PegarValor()
+            {
+                return this.valor;
+            }
+        }
+    }
+
+
+
+
     class Program
     {
         static void Main(string[] args)
@@ -49,7 +68,8 @@ namespace Curso_DankiCode
             Console.WriteLine(aluno2.nomeDoAluno);
         */
 
-
+            var Joao = new Alessandra.Joao();
+            Console.WriteLine(Joao.PegarValor());
 
 
 

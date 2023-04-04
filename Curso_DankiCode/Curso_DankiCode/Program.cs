@@ -56,6 +56,9 @@ namespace Curso_DankiCode
     }
     */
 
+
+    /* Aula: Classes abstratas e o modificador Override */
+    /*
     abstract class Forma
     {
         public abstract int CalcularArea();
@@ -67,6 +70,41 @@ namespace Curso_DankiCode
         public Quadrado(int n) => lado = n;
 
         public override int CalcularArea() => lado * lado;
+    }
+    */
+
+    /* Aula: Método Virtual e continuando a usar Override */
+    public class Trabalhador
+    {
+        public string nome;
+        protected decimal salarioBase;
+
+        public Trabalhador(string nome, decimal salarioBase)
+        {
+            this.nome = nome;
+            this.salarioBase = salarioBase;
+        }
+
+        public virtual decimal CalcularPagamento()
+        {
+            return salarioBase;
+        }
+    }
+
+    public class vendasTrabalhador : Trabalhador
+    {
+        private decimal bonusDeVendas;
+
+        public vendasTrabalhador(string nome, decimal salarioBase, decimal bonusDeVendas) : base(nome, salarioBase)
+        {
+            this.bonusDeVendas = bonusDeVendas;
+
+        }
+
+        public override decimal CalcularPagamento()
+        {
+            return salarioBase + bonusDeVendas;
+        }
     }
 
     class Program
@@ -86,9 +124,18 @@ namespace Curso_DankiCode
             Console.WriteLine(Joao.PegarValor());
             */
 
+            /* Aula: Classes abstratas e o modificador Override */
+            /*
             var dq = new Quadrado(12);
             Console.WriteLine($"Area do quadrado = {dq.CalcularArea()}");
+            */
 
+            /* Aula: Método Virtual e continuando a usar Override */
+            var trabalhador1 = new vendasTrabalhador("Ana", 1000, 500);
+            var trabalhador2 = new Trabalhador("Robson", 1200);
+
+            Console.WriteLine($"Trabalhador1 {trabalhador1.nome} ganhou: {trabalhador1.CalcularPagamento()}");
+            Console.WriteLine($"Trabalhador2 {trabalhador2.nome} ganhou: {trabalhador2.CalcularPagamento()}"); 
         }
     }
 }

@@ -20,7 +20,7 @@
 - [x] Variáveis e estrutura condicional <br>
 - [x] Laços de repetição <br>
 - [x] Introdução a Orientação a Objetos <br>
-- [ ] Heranças e interfaces <br>
+- [x] Heranças e interfaces <br>
 - [ ] Exceçoes e erros <br>
 - [ ] Arrays <br>
 - [ ] C# Web - Aprendendo sobre APIs <br>

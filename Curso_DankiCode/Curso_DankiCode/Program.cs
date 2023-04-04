@@ -41,6 +41,7 @@ namespace Curso_DankiCode
 
 
     /* Aula:  Introdução as heranças */
+    /*
     public class Alessandra
     {
         private int valor = 10;
@@ -53,26 +54,40 @@ namespace Curso_DankiCode
             }
         }
     }
+    */
 
+    abstract class Forma
+    {
+        public abstract int CalcularArea();
+    }
 
+    class Quadrado : Forma
+    {
+        int lado;
+        public Quadrado(int n) => lado = n;
 
+        public override int CalcularArea() => lado * lado;
+    }
 
     class Program
     {
         static void Main(string[] args)
         {
-        /*
-            Aluno aluno1 = new Aluno("Daniel");
-            Aluno aluno2 = new Aluno("Bianca");
-            Console.WriteLine(aluno1.nomeDoAluno);
-            Console.WriteLine(aluno2.nomeDoAluno);
-        */
+            /*
+                Aluno aluno1 = new Aluno("Daniel");
+                Aluno aluno2 = new Aluno("Bianca");
+                Console.WriteLine(aluno1.nomeDoAluno);
+                Console.WriteLine(aluno2.nomeDoAluno);
+            */
 
+            /* Aula:  Introdução as heranças */
+            /*
             var Joao = new Alessandra.Joao();
             Console.WriteLine(Joao.PegarValor());
+            */
 
-
-
+            var dq = new Quadrado(12);
+            Console.WriteLine($"Area do quadrado = {dq.CalcularArea()}");
 
         }
     }

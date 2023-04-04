@@ -74,6 +74,7 @@ namespace Curso_DankiCode
     */
 
     /* Aula: Método Virtual e continuando a usar Override */
+    /*
     public class Trabalhador
     {
         public string nome;
@@ -106,6 +107,33 @@ namespace Curso_DankiCode
             return salarioBase + bonusDeVendas;
         }
     }
+    */
+
+
+    /* Aula: Conhecendo Interfaces com C# */
+    //Quando inserido na interface, a implementação é obrigatoria.
+    interface IControle
+    {
+        void ApertarBotao();
+    }
+
+    interface ITela
+    {
+        void Pintar();
+    }
+
+    class ClasseBase : IControle, ITela
+    {
+        public void ApertarBotao()
+        {
+
+        }
+
+        public void Pintar()
+        {
+
+        }
+    }
 
     class Program
     {
@@ -131,11 +159,15 @@ namespace Curso_DankiCode
             */
 
             /* Aula: Método Virtual e continuando a usar Override */
+            /*
             var trabalhador1 = new vendasTrabalhador("Ana", 1000, 500);
             var trabalhador2 = new Trabalhador("Robson", 1200);
 
             Console.WriteLine($"Trabalhador1 {trabalhador1.nome} ganhou: {trabalhador1.CalcularPagamento()}");
             Console.WriteLine($"Trabalhador2 {trabalhador2.nome} ganhou: {trabalhador2.CalcularPagamento()}"); 
+            */
+
+
         }
     }
 }

@@ -9,13 +9,25 @@ namespace Danki_Bank
         public static double TaxaOperacao { get; private set; }
         public static int TotalContasCriadas { get; private set; }
 
+
+        
         public ContaCorrente(int agencia, int numero)
         {
             Agencia = agencia;
             Numero = numero;
 
-            TaxaOperacao = 30 / TotalContasCriadas;
-            TotalContasCriadas++;
+            /* Aula: Tratando nosso primeiro erro*/
+            if (TotalContasCriadas == 0)
+            {
+                TaxaOperacao = 30;
+                TotalContasCriadas++;
+            }
+            else
+            {
+                TaxaOperacao = 30 / (TotalContasCriadas + 1);
+                TotalContasCriadas++;
+            }
+            
         }
     }
 
@@ -24,6 +36,9 @@ namespace Danki_Bank
         static void Main(string[] args)
         {
             ContaCorrente conta = new ContaCorrente(9999, 123456);
+            ContaCorrente conta2 = new ContaCorrente(8888, 654321);
+            
+            Console.WriteLine(ContaCorrente.TotalContasCriadas);
             Console.WriteLine(ContaCorrente.TaxaOperacao);
             Console.ReadLine();
         }

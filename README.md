@@ -21,12 +21,12 @@
 - [x] Laços de repetição <br>
 - [x] Introdução a Orientação a Objetos <br>
 - [x] Heranças e interfaces <br>
-- [ ] Exceçoes e erros <br>
+- [x] Exceções e erros <br>
 - [ ] Arrays <br>
 - [ ] C# Web - Aprendendo sobre APIs <br>
-- [ ] Introdução ao Front-end: HTML Basico <br>
-- [ ] Introdução ao Front-end: CSS Basico <br>
+- [ ] Introdução ao Front-end: HTML Básico <br>
+- [ ] Introdução ao Front-end: CSS Básico <br>
 - [ ] Introdução a Banco de Dados <br>
-- [ ] Projeto pratico 1 <br>
+- [ ] Projeto prático 1 <br>
 - [ ] Introdução a mobile <br>
-- [ ] Noçoes de Ciencia da Computacao [BONUS]
+- [ ] Noções de Ciencia da Computação [BONUS]

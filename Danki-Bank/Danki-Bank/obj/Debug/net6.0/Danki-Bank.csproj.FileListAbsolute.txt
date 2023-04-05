@@ -1,0 +1,15 @@
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\bin\Debug\net6.0\Danki-Bank.exe
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\bin\Debug\net6.0\Danki-Bank.deps.json
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\bin\Debug\net6.0\Danki-Bank.runtimeconfig.json
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\bin\Debug\net6.0\Danki-Bank.dll
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\bin\Debug\net6.0\Danki-Bank.pdb
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\Danki-Bank.csproj.AssemblyReference.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\Danki-Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\Danki-Bank.AssemblyInfoInputs.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\Danki-Bank.AssemblyInfo.cs
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\Danki-Bank.csproj.CoreCompileInputs.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\Danki-Bank.dll
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\refint\Danki-Bank.dll
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\Danki-Bank.pdb
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\Danki-Bank.genruntimeconfig.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\DankiCode\Curso-de-CSharp-Completo\Danki-Bank\Danki-Bank\obj\Debug\net6.0\ref\Danki-Bank.dll

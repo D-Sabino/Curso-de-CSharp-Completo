@@ -77,7 +77,16 @@ namespace Danki_Bank
             nomes[3] = "Lucas";
             nomes[4] = "Bianca";
 
-            Console.WriteLine(nomes[4]);
+            /* Aula: Brincando com Arrays #1 */
+            foreach(string nome in nomes) 
+            {
+                Console.WriteLine(nome);
+            }
+
+            
+
+
+
         }
     }
 }

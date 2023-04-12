@@ -67,7 +67,7 @@ namespace Danki_Bank
             int[] matriz;
             matriz = new int[10];
             */
-
+            /*
             string[] nomes;
             nomes = new string[5];
 
@@ -76,14 +76,64 @@ namespace Danki_Bank
             nomes[2] = "Daniel";
             nomes[3] = "Lucas";
             nomes[4] = "Bianca";
-
+            */
             /* Aula: Brincando com Arrays #1 */
+            /*
             foreach(string nome in nomes) 
             {
                 Console.WriteLine(nome);
             }
+            */
+
+            /* Aula: Brincando com Arrays #2 */
+            int imp = 0, par = 0;
+            int[] numeros = new int[10];
+            int[] pares = new int[10];
+            int[] impares = new int[10];
+
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                Console.WriteLine("Digite um numero maior que zero:");
+                numeros[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
             
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                if (numeros[i] % 2 == 0)
+                {
+                    pares[par] = numeros[i];
+                    par++;
+                }
+                else
+                {
+                    impares[imp] = numeros[i];
+                    imp++;
+                }
+            }
+
+            //Ordenar vetores.
+            Array.Sort(numeros);
+            Array.Sort(pares);
+            Array.Sort(impares);
+
+            Console.WriteLine("Estes são os numeros que voce digitou:");
+            foreach (int numero in numeros)
+            {
+                Console.WriteLine(numero);
+            }
+
+            Console.WriteLine("Estes são os numeros pares que voce digitou:");
+            foreach (int numero in pares)
+            {
+                if (numero != 0 ) Console.WriteLine(numero);
+            }
+
+            Console.WriteLine("Estes são os numeros impares que voce digitou:");
+            foreach (int numero in impares)
+            {
+                if (numero != 0) Console.WriteLine(numero);
+            }
 
 
 

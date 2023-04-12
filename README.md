@@ -22,7 +22,7 @@
 - [x] Introdução a Orientação a Objetos <br>
 - [x] Heranças e interfaces <br>
 - [x] Exceções e erros <br>
-- [ ] Arrays <br>
+- [x] Arrays <br>
 - [ ] C# Web - Aprendendo sobre APIs <br>
 - [ ] Introdução ao Front-end: HTML Básico <br>
 - [ ] Introdução ao Front-end: CSS Básico <br>

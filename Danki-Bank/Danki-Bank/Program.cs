@@ -86,7 +86,7 @@ namespace Danki_Bank
             */
 
             /* Aula: Brincando com Arrays #2 */
-            int imp = 0, par = 0;
+            /*
             int[] numeros = new int[10];
             int[] pares = new int[10];
             int[] impares = new int[10];
@@ -102,13 +102,11 @@ namespace Danki_Bank
             {
                 if (numeros[i] % 2 == 0)
                 {
-                    pares[par] = numeros[i];
-                    par++;
+                    pares[i] = numeros[i];
                 }
                 else
                 {
-                    impares[imp] = numeros[i];
-                    imp++;
+                    impares[i] = numeros[i];
                 }
             }
 
@@ -134,9 +132,37 @@ namespace Danki_Bank
             {
                 if (numero != 0) Console.WriteLine(numero);
             }
+            */
+
+            /* Aula: Brincando com Arrays #3 */
+            String[] estudantes = new string[4];
+            int[] idade = new int[4];
+            String[] lista = new String[4];
+
+            Console.WriteLine("Digite o nome de dez estudantes e suas respectivas idade:");
+
+            for (int i = 0; i < estudantes.Length; i++)
+            {
+                Console.WriteLine("Nome do estudante:");
+                estudantes[i] = Console.ReadLine();
+
+                Console.WriteLine("Idade:");
+                idade[i] = Convert.ToInt16(Console.ReadLine());
+
+                if (idade[i] < 10) lista[i] = "0" + idade[i] + " " + estudantes[i];
+                else lista[i] = idade[i] + " " + estudantes[i];
 
 
+            }
 
+            Array.Sort(lista);
+            foreach(String l in lista)
+            {
+                Console.WriteLine(l);
+            }
+
+            Console.WriteLine("O estudante mais velho é o: " + lista[3]);
+            Console.WriteLine("O estudante mais novo é o: " + lista[0]);
         }
     }
 }

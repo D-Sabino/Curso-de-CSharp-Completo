@@ -151,8 +151,6 @@ namespace Danki_Bank
 
                 if (idade[i] < 10) lista[i] = "0" + idade[i] + " " + estudantes[i];
                 else lista[i] = idade[i] + " " + estudantes[i];
-
-
             }
 
             Array.Sort(lista);

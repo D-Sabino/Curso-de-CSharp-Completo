@@ -23,7 +23,7 @@
 - [x] Heranças e interfaces <br>
 - [x] Exceções e erros <br>
 - [x] Arrays <br>
-- [ ] C# Web - Aprendendo sobre APIs <br>
+- [x] C# Web - Aprendendo sobre APIs <br>
 - [ ] Introdução ao Front-end: HTML Básico <br>
 - [ ] Introdução ao Front-end: CSS Básico <br>
 - [ ] Introdução a Banco de Dados <br>

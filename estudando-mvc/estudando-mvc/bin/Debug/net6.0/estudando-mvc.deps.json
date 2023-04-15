@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "estudando-mvc/1.0.0": {
+        "runtime": {
+          "estudando-mvc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "estudando-mvc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

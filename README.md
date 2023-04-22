@@ -24,7 +24,7 @@
 - [x] Exceções e erros <br>
 - [x] Arrays <br>
 - [x] C# Web - Aprendendo sobre APIs <br>
-- [ ] Introdução ao Front-end: HTML Básico <br>
+- [x] Introdução ao Front-end: HTML Básico <br>
 - [ ] Introdução ao Front-end: CSS Básico <br>
 - [ ] Introdução a Banco de Dados <br>
 - [ ] Projeto prático 1 <br>
